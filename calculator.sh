@@ -13,3 +13,7 @@ echo "Subtraction"
 #Division
 
 echo "Division"
+
+#Multiplication
+
+echo "Multiplication"
