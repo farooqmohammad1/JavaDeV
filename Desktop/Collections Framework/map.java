@@ -15,15 +15,17 @@ public class map {
      m.put(1,"b");
      m.put(2,"h");
      //System.out.println(m);
-    // for(Map.Entry<Integer, String> e:m.entrySet()){
+    //  for(Map.Entry<Integer, String> e:m.entrySet()){
     //    System.out.println(e);
     // }
     //System.out.println(m.get(1));
     //
 //In Java, the Map interface doesn't have a getKey() method directly. To retrieve keys from a Map, you need to use the keySet() method, which returns a Set containing all the keys. Then, you can iterate over this set to access each key.
+   
    // for(Map.Entry<Integer, String> e :m.entrySet()){
    //     System.out.println(e.getKey()+" "+e.getValue());
    // }
+
    // Set<Integer> keys=m.keySet();
    // for (Integer key : keys) {
    //     String value = m.get(key);
