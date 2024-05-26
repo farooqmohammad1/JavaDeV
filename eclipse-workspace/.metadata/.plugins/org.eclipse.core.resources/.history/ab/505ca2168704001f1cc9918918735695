@@ -1,0 +1,34 @@
+package Day1;
+import Emp.Employee;
+import Day2.functions;
+
+public class First {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//System.out.println("Hi");
+		
+		//int a=10;
+		//int b=20;
+		//System.out.println(a+b);
+		
+		//Employee emp=new Employee();
+		//emp.eno=101;
+		
+		//emp.ename="abc";
+		//emp.display();
+		//Employee emp1=new Employee();
+		//emp1.eno=101;
+		//emp1.ename="bca";
+		//emp1.display();
+		
+		functions f=new functions();
+		f.m1();
+		f.m2();
+		f.m3("A");
+		f.m4("B");
+		
+		
+	}
+
+}

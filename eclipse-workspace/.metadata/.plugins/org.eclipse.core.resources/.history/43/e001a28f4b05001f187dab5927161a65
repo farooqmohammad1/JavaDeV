@@ -1,0 +1,26 @@
+package Day3;
+
+public class Main {
+	int sno;
+	String sname;
+	double marks;
+	void showData() {
+		System.out.println(sno+" "+sname+" "+marks);
+	}
+
+	public static void main(String[] args) {
+		// in this we will discuss about the ways to store data into class variables
+		
+		//1st method: using object reference variables
+		Main stu=new Main();
+		stu.sno=101;
+		stu.sname="ABC";
+		stu.marks=489;
+		stu.showData();
+		
+		
+		
+
+	}
+
+}

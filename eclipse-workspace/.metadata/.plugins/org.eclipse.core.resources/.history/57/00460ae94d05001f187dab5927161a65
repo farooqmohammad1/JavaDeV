@@ -1,0 +1,24 @@
+package constructtypes;
+
+public class Main {
+	int a,b;
+	Main(){
+		 a=100;
+		 b=200;
+	}
+	Main(int x,int y){
+		a=x;
+		b=y;
+	}
+	void sum() {
+		System.out.println(a+b);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Main sum=new Main();
+		sum.sum();
+
+	}
+
+}

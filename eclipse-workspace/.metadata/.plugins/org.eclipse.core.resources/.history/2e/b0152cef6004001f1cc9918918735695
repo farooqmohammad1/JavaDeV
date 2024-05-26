@@ -1,0 +1,25 @@
+package Day1;
+import Emp.Employee;
+
+public class First {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//System.out.println("Hi");
+		
+		//int a=10;
+		//int b=20;
+		//System.out.println(a+b);
+		
+		Employee emp=new Employee();
+		emp.eno=101;
+		emp.ename="abc";
+		emp.display();
+		Employee emp1=new Employee();
+		emp1.eno=101;
+		emp.ename="bca";
+		emp1.display();
+		
+	}
+
+}

@@ -1,0 +1,40 @@
+package overloading;
+
+public class methodOverload {
+	
+	//conditions for method overload
+	//1)method name should be same
+	//2)number of parameters should be different
+	//3)datatypes of parameters should be different
+	//orders of  parameters should be different
+	int a=10,b=20;
+	void sum() {
+		System.out.println(a+b);
+	}
+	//void sum(int a,int b) {
+		//System.out.println(a+b);
+	//}
+	void sum(int a,int b,int c) {
+		System.out.println(a+b+c);
+		
+	}
+	void sum(int a,double b) {
+		System.out.println(a+b);
+		
+	}
+	void sum(double b,int a) {
+		System.out.println(a+b);
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		methodOverload sum=new methodOverload();
+		sum.sum();
+		//sum.sum(100,200);
+		sum.sum(100,200,300);
+		sum.sum(10,10.0);
+
+	}
+
+}

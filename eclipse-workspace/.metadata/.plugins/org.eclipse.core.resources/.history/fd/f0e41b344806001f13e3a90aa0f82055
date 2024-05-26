@@ -1,0 +1,31 @@
+package Encapsulation;
+
+public class central {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Main m=new Main();
+		/*
+		 *
+The Main class has instance variables id and acc that are not initialized explicitly. 
+When you create an object of Main using Main m = new Main();,
+ the instance variables id and acc are set to their default values, which is 0 for integers in Java.
+
+In your Main class, you have a method setValue() that sets the values of id and acc.
+ However, you never call this method in your central class. Hence, when you call getValue() on the Main object m, the values of id and acc remain 0 since you never set them using setValue(). 
+That's why it prints 0. 
+		 * */
+		
+		//m.setValue();
+		//m.getValue();
+		//m.print();
+		m.setAcc(3456789);
+		m.setId(5);
+		
+		int a=m.getAcc();
+		System.out.println(a);
+		System.out.println(m.getId());
+
+	}
+
+}

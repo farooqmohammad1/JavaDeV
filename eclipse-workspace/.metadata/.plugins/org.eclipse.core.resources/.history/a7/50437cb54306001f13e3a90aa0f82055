@@ -1,0 +1,16 @@
+package Encapsulation;
+
+public class Main {
+	//
+	private int id;
+	private int acc;
+	void setValue() {
+		id=10111;
+		acc=390291049;
+	}
+	void getValue() {
+		
+		System.out.println(acc);
+		}
+
+}
